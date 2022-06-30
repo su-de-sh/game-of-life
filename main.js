@@ -56,6 +56,11 @@ const paint = () => {
   }
 };
 
+// add an event listner which on clicked will show game-rules
+document.getElementById("rule").addEventListener("click", () => {
+  document.getElementById("game-rules").classList.toggle("show");
+});
+
 document.getElementById("board").addEventListener("click", (event) => {
   const row = event.target.dataset.row;
   const col = event.target.dataset.col;

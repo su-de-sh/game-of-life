@@ -23,8 +23,15 @@ h1 {
   height: 18px;
 }
 
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
 td.alive {
-  background-color: hsl(2, 96%, 50%);
+  background-color: hsl(30, 3%, 12%);
 }
 
 #control_panel {
