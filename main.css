@@ -48,3 +48,7 @@ td.alive {
 .button:focus {
   outline: dashed 1px #2ba6cb;
 }
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+}
