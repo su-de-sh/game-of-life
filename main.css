@@ -24,7 +24,7 @@ h1 {
 }
 
 td.alive {
-  background-color: #8CC8DD;
+  background-color: hsl(2, 96%, 50%);
 }
 
 #control_panel {

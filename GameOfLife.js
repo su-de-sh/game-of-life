@@ -65,24 +65,24 @@ class GameOfLife {
   }
 }
 
-const game = new GameOfLife(3, 3);
+// const game = new GameOfLife(3, 3);
 
-game.board[1][0] = 1; // or true, depending on which value represents "alive" in your implementation.
-game.board[1][1] = 1;
-game.board[1][2] = 1;
+// game.board[1][0] = 1; // or true, depending on which value represents "alive" in your implementation.
+// game.board[1][1] = 1;
+// game.board[1][2] = 1;
 
-console.log(game.board);
-//  [
-//   [0, 0, 0],
-//   [1, 1, 1],
-//   [0, 0, 0]
-//  ]
+// console.log(game.board);
+// //  [
+// //   [0, 0, 0],
+// //   [1, 1, 1],
+// //   [0, 0, 0]
+// //  ]
 
-game.tick();
+// game.tick();
 
-console.log(game.board);
-//  [
-//   [0, 1, 0],
-//   [0, 1, 0],
-//   [0, 1, 0]
-//  ]
+// console.log(game.board);
+// //  [
+// //   [0, 1, 0],
+// //   [0, 1, 0],
+// //   [0, 1, 0]
+// //  ]
