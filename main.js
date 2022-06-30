@@ -89,7 +89,13 @@ document.getElementById("play_btn").addEventListener("click", (event) => {
 });
 
 document.getElementById("random_btn").addEventListener("click", (event) => {
-  // TODO: Randomize the board and paint
+  // TODO: Randomize the board and paint  it
+  for (let i = 0; i < gol.board.length; i++) {
+    for (let j = 0; j < gol.board[i].length; j++) {
+      gol.board[i][j] = Math.round(Math.random());
+    }
+  }
+  paint();
 });
 
 document.getElementById("clear_btn").addEventListener("click", (event) => {
