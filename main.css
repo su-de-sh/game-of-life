@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;700&display=swap');
+
+
 body {
   font-family: Futura, Helvetica, Arial, sans-serif;
   color: #444;
@@ -46,6 +49,7 @@ td.alive {
   text-align: center;
   background-color: #2ba6cb;
   color: #fefefe; 
+  font-family: 'Roboto Mono', monospace;
 }
 
 .button:hover, .button:focus {
@@ -58,4 +62,31 @@ td.alive {
 
 h1{
   font-family: 'Press Start 2P', cursive;
+}
+
+#rule {
+  padding: 10px;
+  background-color: #2ba6cb;
+  border: none;
+  margin: 1rem 0;
+  color : white;
+  border-radius: 5px;
+
+}
+
+#rule:hover{
+  background-color : black;
+  color: white;
+  transition: 0.6s ease;
+}
+
+#game-rules{
+  padding: 10px;
+  background-color: #fefefe;
+  margin-bottom: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 200;
+  box-shadow: 0px 4px 34px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 4px 34px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 34px 1px rgba(0,0,0,0.75);
 }
